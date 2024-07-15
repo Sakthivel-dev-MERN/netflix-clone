@@ -15,7 +15,28 @@ box-sizing: border-box;
     border-radius: 10px;
     background-repeat: no-repeat;
     background-position: center;
-}
+  }
+@media only screen and (max-width: 600px) {
+    .card{
+      height: 90px;
+      width: 90px;
+    }
+  }
+    
+@media only screen and (min-width: 600px) {
+    .card{
+      height: 100px;
+      width: 100px;
+    }
+    }
+@media only screen and (min-width: 768px) {
+    .card{
+      height: 150px;
+      width: 150px;
+    }
+  }
+    
+
 .scale-up-center {
 	-webkit-animation: scale-up-center 0.3s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 	        animation: scale-up-center 0.3s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
